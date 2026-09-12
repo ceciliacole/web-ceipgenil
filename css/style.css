@@ -214,7 +214,7 @@ nav.main-nav a.btn-primary:hover { color: #fff; }
 }
 .page-hero-graphic {
   position: absolute;
-  right: -30px;
+  right: 0;
   bottom: -36px;
   width: 260px;
   opacity: .55;
