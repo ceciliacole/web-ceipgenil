@@ -6,7 +6,7 @@
   --teal: #2e8b96;
   --teal-soft: #e4f0f0;
   --amber: #e0973a;
-  --paper: #f5f7f6;
+  --paper: #eef6f5;
   --white: #ffffff;
   --text: #1b2b34;
   --text-soft: #55666d;
@@ -206,8 +206,27 @@ nav.main-nav a.btn-primary:hover { color: #fff; }
 .news-item p { color: var(--text-soft); font-size: 14.5px; margin: 0; max-width: 60ch; }
 
 /* Page hero (paginas internas) */
-.page-hero { padding-block: 44px 8px; }
+.page-hero-band {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(120deg, var(--teal-soft) 0%, #ffffff 65%);
+  border-bottom: 1px solid var(--line);
+}
+.page-hero-graphic {
+  position: absolute;
+  right: -30px;
+  bottom: -36px;
+  width: 260px;
+  opacity: .55;
+  pointer-events: none;
+}
+.page-hero-graphic svg { display: block; width: 100%; height: auto; }
+.page-hero { padding-block: 44px 40px; position: relative; z-index: 1; }
 .page-hero .eyebrow { margin-bottom: 12px; }
+.page-hero .lead { max-width: 56ch; }
+@media (max-width: 640px) {
+  .page-hero-graphic { width: 160px; opacity: .35; }
+}
 
 /* Contact / address blocks */
 .contact-grid {
@@ -240,6 +259,38 @@ nav.main-nav a.btn-primary:hover { color: #fff; }
   padding: 16px 20px;
   font-size: 13.5px;
   color: #7a5417;
+}
+
+/* Cofinanciación */
+.cofinanciacion {
+  border-top: 1px solid var(--line);
+  padding-block: 22px;
+  text-align: center;
+}
+.cofinanciacion img { margin: 0 auto; max-height: 46px; width: auto; }
+.cofinanciacion p {
+  margin: 10px 0 0;
+  font-size: 12px;
+  color: var(--text-soft);
+}
+
+/* Carteles de programas */
+.poster-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+.poster-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--white);
+}
+.poster-card img { width: 100%; display: block; }
+.poster-card .poster-caption {
+  padding: 14px 16px;
+  font-size: 13.5px;
+  color: var(--text-soft);
 }
 
 /* Footer */
