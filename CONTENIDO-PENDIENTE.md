@@ -1,40 +1,25 @@
 # Contenido pendiente de completar
 
-Esta web se ha montado con contenido de ejemplo para que la estructura y el diseño se puedan revisar ya. Antes de publicarla de verdad, hay que sustituir lo siguiente por datos reales del centro:
+Gran parte del contenido ya se ha sustituido por datos reales, extraídos del export de WordPress de la web anterior (`blogsaverroes.juntadeandalucia.es/ceipgenil`). Esto es lo que queda por revisar o completar:
 
-## Contacto (aparece en `contacto.html` y en el pie de las 7 páginas)
-- [ ] Dirección postal completa
-- [ ] Teléfono del centro
-- [ ] Email de dirección/secretaría (ahora mismo `direccion@ceipgenil.example`)
-- [ ] Horario de atención de secretaría
-- [ ] Horario lectivo real
-- [ ] Mapa de ubicación en `contacto.html` (sustituir el aviso "Mapa pendiente" por un iframe de Google Maps o similar con la ubicación exacta)
+## A confirmar (datos contradictorios o inciertos en la web antigua)
+- [ ] **Comedor:** una página antigua decía que lo gestiona **COMERTEL** (app "El gusto de crecer", menú 4,58 €/día) y otra decía **IRCO**. Se ha usado COMERTEL por ser el dato más detallado, pero hay que confirmar cuál es la empresa actual.
+- [ ] **Horario lectivo** (`etapas.html`, `contacto.html`): no aparecía explícito en la web antigua. Se ha calculado como 9:00–14:00 h a partir de los horarios de aula matinal (termina a las 9:00) y comedor (empieza a las 14:00). Confirmar que es correcto.
+- [ ] **AMPA:** no había email, teléfono ni redes sociales propias en el export — solo un texto de presentación. Añadir un contacto directo si lo tienen.
 
-## El Centro (`el-centro.html`)
-- [ ] Texto real de "Quiénes somos" / historia del centro / proyecto educativo
-- [ ] Nombres del equipo directivo (Dirección, Jefatura de Estudios, Secretaría)
-- [ ] Confirmar si las instalaciones descritas (biblioteca, gimnasio, comedor...) son correctas
+## Contenido nuevo que no estaba en la web antigua
+- [ ] Enlaces de Facebook e Instagram del pie de página (ahora apuntan a `#` — la web antigua no tenía enlaces directos a redes en el export)
+- [ ] Historia del centro / texto de "Quiénes somos" más allá de los datos ya incluidos (bilingüe, integración preferente de alumnado sordo)
 
-## Etapas (`etapas.html`)
-- [ ] Horario lectivo real (ahora "09:00–14:00 h" es un ejemplo)
-
-## Admisión (`admision.html`)
-- [ ] Confirmar cada curso los plazos oficiales de escolarización (los de este texto son orientativos)
-
-## Familias (`familias.html`)
-- [ ] Precio y horario real del comedor
-- [ ] Precio y horario real del aula matinal
-- [ ] Oferta real de actividades extraescolares
-- [ ] Datos de contacto de la AMPA
-
-## Noticias (`noticias.html` e `index.html`)
-- [ ] Las 3 noticias son de ejemplo — sustituir por noticias reales del centro
-
-## Redes sociales (pie de página, las 7 páginas)
-- [ ] Enlaces de Facebook e Instagram (ahora apuntan a `#`)
+## Fotos y vídeos
+- [ ] La web antigua tenía 306 archivos (fotos, carteles, vídeos) alojados en `blogsaverroes.juntadeandalucia.es`. No se han podido descargar automáticamente (sin acceso a internet desde este entorno). Si quieres recuperarlos:
+  - Entra en cada página antigua relevante y descarga las imágenes que quieras conservar (botón derecho → guardar imagen), o
+  - Pide a quien tenga acceso al panel de WordPress que exporte la carpeta de medios, y súbelas a la carpeta `images/` de este repositorio
+- [ ] El hero de portada (`index.html`) sigue usando la ilustración provisional — sustituir por una foto real del colegio cuando la tengas
+- [ ] Las noticias de `noticias.html` (Semana Cultural, acequia de Aynadamar, Jornada de Puertas Abiertas) están recuperadas de la web antigua pero sin sus fotos/vídeos originales
 
 ## Logo
-- [ ] El icono "Cauce" es una propuesta. Si el cole aprueba un logo distinto, sustituir el SVG en `images/favicon.svg` y en la cabecera/pie de cada página.
+- [ ] El icono "Cauce" (`images/favicon.svg`) es la propuesta que elegisteis para sustituir el logo hecho a mano. Si en algún momento generáis el archivo final del logo, sustituir el SVG en `images/favicon.svg` y en la cabecera/pie de cada página HTML.
 
-## Fotos
-- [ ] No hay fotos reales del centro; el hero de portada usa una ilustración. Se pueden añadir fotos en `images/` y referenciarlas con `<img src="images/nombre.jpg">`.
+## Documentos oficiales
+- [ ] Los enlaces a Proyecto Educativo, ROF y Proyecto de Gestión (`el-centro.html`) apuntan a Google Drive con enlaces de la web antigua — comprobar que siguen siendo accesibles y están actualizados al curso actual.
