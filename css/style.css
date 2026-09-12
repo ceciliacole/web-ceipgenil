@@ -158,6 +158,23 @@ nav.main-nav a.btn-primary:hover { color: #fff; }
   border-radius: var(--radius);
   padding: 26px;
 }
+a.card-link {
+  display: flex;
+  flex-direction: column;
+  transition: border-color .15s ease, transform .15s ease;
+}
+a.card-link:hover {
+  border-color: var(--teal);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+.card-more {
+  margin-top: auto;
+  padding-top: 12px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--teal);
+}
 .card .icon {
   width: 42px;
   height: 42px;
