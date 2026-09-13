@@ -60,7 +60,19 @@
 
   <div class="page-hero-band">
     <section class="page-hero container">
-      <div class="page-hero-graphic"><svg viewBox="0 0 260 200" width="100%" role="presentation" aria-hidden="true">
+      <div class="page-hero-graphic"><svg viewBox="0 0 260 200" width="100%" role="presentation" aria-hidden="true" style="overflow:visible;">
+        <defs>
+          <linearGradient id="miniFadeTeal" gradientUnits="userSpaceOnUse" x1="-90" y1="0" x2="0" y2="0">
+            <stop offset="0" stop-color="#2e8b96" stop-opacity="0"/>
+            <stop offset="1" stop-color="#2e8b96" stop-opacity="1"/>
+          </linearGradient>
+          <linearGradient id="miniFadeNavy" gradientUnits="userSpaceOnUse" x1="-90" y1="0" x2="0" y2="0">
+            <stop offset="0" stop-color="#16324f" stop-opacity="0"/>
+            <stop offset="1" stop-color="#16324f" stop-opacity="1"/>
+          </linearGradient>
+        </defs>
+        <path d="M-90 158 C -68 145, -51 162, -23 148 C -8 140, -3 145, 0 150 L0 200 L-90 200 Z" fill="url(#miniFadeTeal)"/>
+        <path d="M-90 103 C -68 90, -51 107, -23 93 C -8 85, -3 90, 0 95" stroke="url(#miniFadeNavy)" stroke-width="6" stroke-linecap="round" fill="none"/>
         <circle cx="195" cy="42" r="13" fill="#e0973a"/>
         <path d="M0 95 C 35 65, 60 115, 95 90 C 130 65, 155 110, 190 88 C 210 76, 225 76, 260 88" stroke="#16324f" stroke-width="6" stroke-linecap="round" fill="none"/>
         <path d="M0 150 C 35 120, 60 170, 95 145 C 130 120, 155 165, 190 143 C 210 131, 225 131, 260 143 L260 200 L0 200 Z" fill="#2e8b96"/>
