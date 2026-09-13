@@ -7,6 +7,7 @@
   --teal-soft: #e4f0f0;
   --amber: #e0973a;
   --paper: #eef6f5;
+  --paper-warm: #fbf3e7;
   --white: #ffffff;
   --text: #1b2b34;
   --text-soft: #55666d;
@@ -49,6 +50,7 @@ p { margin: 0 0 1em; }
 }
 .section { padding-block: 64px; }
 .section.alt { background: var(--paper); }
+.section.alt2 { background: var(--paper-warm); }
 .section-head { max-width: 62ch; margin-bottom: 36px; }
 .eyebrow {
   display: inline-block;
@@ -227,6 +229,8 @@ a.card-link:hover {
   font-weight: 600;
   color: var(--teal);
 }
+.staff-name { color: var(--ink); font-weight: 600; margin: 0 0 4px; font-size: 15px; }
+.staff-time { color: var(--text-soft); font-size: 13.5px; margin: 0; }
 .card .icon {
   width: 42px;
   height: 42px;
