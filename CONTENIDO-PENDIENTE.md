@@ -15,13 +15,13 @@ Gran parte del contenido ya se ha sustituido por datos reales, extraídos del ex
 - "Documentos oficiales" ampliado: además del Plan de Centro (Proyecto Educativo, ROF, Proyecto de Gestión), incluye los Criterios de Evaluación por curso.
 
 - Programas actualizados al curso actual: se quitan CIMA, Programa ZTS, Aprendizaje-Servicio e INNICIA · Robótica (ya no vigentes), y se añaden Competencia Lingüística Bilingüe, Hábitos de Vida Saludables y Escuela Espacio de Paz.
+- Redes sociales del centro enlazadas en el pie de página: Facebook (facebook.com/ceipgenil.granada) e Instagram (instagram.com/ceipgenilgranada).
 
 ## Todavía pendiente
 - [ ] **Competencia Lingüística Bilingüe, Hábitos de Vida Saludables y Escuela Espacio de Paz**: solo tienen un texto mínimo — falta que Cecilia (o el centro) pase el contenido real de cada programa este curso.
 - [ ] **AMPA:** falta un email, teléfono o redes sociales propias (Cecilia lo está buscando).
 - [ ] **Horario lectivo** (`etapas.html`, `contacto.html`): sigue siendo un cálculo aproximado (9:00–14:00 h, a partir de los horarios de aula matinal y comedor). Confirmarlo tal cual.
 - [ ] **Programaciones didácticas**: falta el enlace por curso en `el-centro.html` (no estaba en la web antigua).
-- [ ] Enlaces de Facebook e Instagram del pie de página (ahora apuntan a `#`)
 - [ ] Historia del centro / texto de "Quiénes somos" más allá de los datos ya incluidos
 
 ## Fotos y vídeos
