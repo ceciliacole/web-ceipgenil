@@ -27,10 +27,24 @@
       </a>
       <nav class="main-nav">
         <a href="index.html">Inicio</a>
-      <a href="el-centro.html" class="current">El Centro</a>
+      <div class="nav-item">
+          <a href="el-centro.html" class="current">El Centro <span class="nav-caret">▾</span></a>
+          <div class="nav-dropdown">
+          <a href="planes-proyectos.html">Planes y Proyectos</a>
+          <a href="comunidades-aprendizaje.html">Comunidades de Aprendizaje</a>
+          <a href="galeria.html">Galería</a>
+          </div>
+        </div>
       <a href="etapas.html">Etapas</a>
       <a href="admision.html">Admisión</a>
-      <a href="familias.html">Familias</a>
+      <div class="nav-item">
+          <a href="familias.html">Familias <span class="nav-caret">▾</span></a>
+          <div class="nav-dropdown">
+          <a href="tutoriales.html">Tutoriales</a>
+          <a href="https://www.juntadeandalucia.es/educacion/ipasen/" target="_blank" rel="noopener">iPasen ↗</a>
+          <a href="https://www.juntadeandalucia.es/educacion/seneca/" target="_blank" rel="noopener">Séneca ↗</a>
+          </div>
+        </div>
       <a href="noticias.html">Noticias</a>
       <a href="contacto.html">Contacto</a>
         <a href="https://www.juntadeandalucia.es/educacion/ipasen/" target="_blank" rel="noopener" class="btn btn-primary">iPasen</a>
@@ -66,14 +80,30 @@
         <h2>Nuestros programas</h2>
       </div>
       <div class="grid">
-        <a class="card card-link" href="proa-transformate.html"><h3>PROA+ "Transfórmate"</h3><p>Programa de cooperación territorial (2024-2028) para mejorar los resultados escolares de todo el alumnado, especialmente el más vulnerable, cofinanciado por el FSE+.</p><span class="card-more">Ver más →</span></a>
-        <a class="card card-link" href="proa-acompanamiento.html"><h3>PROA+ Acompañamiento Escolar</h3><p>Refuerzo educativo gratuito fuera del horario lectivo en Lengua y Matemáticas, técnicas de estudio y motivación, para alumnado que lo necesita.</p><span class="card-more">Ver más →</span></a>
-        <a class="card card-link" href="mas-equidad.html"><h3>Más Equidad</h3><p>Programa de la Junta de Andalucía para garantizar la igualdad de oportunidades y el éxito educativo de todo el alumnado.</p><span class="card-more">Ver más →</span></a>
-        <a class="card card-link" href="igualdad-pacto-estado.html"><h3>Igualdad / Pacto de Estado</h3><p>Actividades para educar en igualdad, prevenir la violencia de género y fomentar el respeto, dentro del Pacto de Estado contra la Violencia de Género.</p><span class="card-more">Ver más →</span></a>
-        <a class="card card-link" href="transito.html"><h3>Programa de Tránsito</h3><p>Acompañamiento en el paso de Infantil a Primaria y de Primaria a Secundaria (ESO).</p><span class="card-more">Ver más →</span></a>
-        <a class="card card-link" href="competencia-linguistica-bilingue.html"><h3>Competencia Lingüística Bilingüe</h3><p>Refuerzo de la competencia lingüística en el centro bilingüe.</p><span class="card-more">Ver más →</span></a>
-        <a class="card card-link" href="habitos-vida-saludables.html"><h3>Hábitos de Vida Saludables</h3><p>Alimentación saludable (frutas, verduras y leche subvencionadas por la UE) y huerto escolar.</p><span class="card-more">Ver más →</span></a>
-        <a class="card card-link" href="escuela-espacio-de-paz.html"><h3>Escuela Espacio de Paz</h3><p>Convivencia, mediación y cultura de paz en el centro.</p><span class="card-more">Ver más →</span></a>
+        <a class="card card-logo card-link" href="proa-transformate.html">
+          <div class="card-logo-art"><img src="images/cartel-proa-mas.png" alt="PROA+ Transfórmate" loading="lazy"></div>
+          <h3>PROA+ "Transfórmate"</h3><p>Programa de cooperación territorial (2024-2028) para mejorar los resultados escolares de todo el alumnado, especialmente el más vulnerable, cofinanciado por el FSE+.</p><span class="card-more">Ver más →</span></a>
+        <a class="card card-logo card-link" href="proa-acompanamiento.html">
+          <div class="card-logo-art"><div class="card-logo-icon teal">📚</div></div>
+          <h3>PROA+ Acompañamiento Escolar</h3><p>Refuerzo educativo gratuito fuera del horario lectivo en Lengua y Matemáticas, técnicas de estudio y motivación, para alumnado que lo necesita.</p><span class="card-more">Ver más →</span></a>
+        <a class="card card-logo card-link" href="mas-equidad.html">
+          <div class="card-logo-art"><div class="card-logo-icon amber">🤝</div></div>
+          <h3>Más Equidad</h3><p>Programa de la Junta de Andalucía para garantizar la igualdad de oportunidades y el éxito educativo de todo el alumnado.</p><span class="card-more">Ver más →</span></a>
+        <a class="card card-logo card-link" href="igualdad-pacto-estado.html">
+          <div class="card-logo-art"><img src="images/logo-pacto-estado.png" alt="Pacto de Estado contra la violencia de género" loading="lazy"></div>
+          <h3>Igualdad / Pacto de Estado</h3><p>Actividades para educar en igualdad, prevenir la violencia de género y fomentar el respeto, dentro del Pacto de Estado contra la Violencia de Género.</p><span class="card-more">Ver más →</span></a>
+        <a class="card card-logo card-link" href="transito.html">
+          <div class="card-logo-art"><div class="card-logo-icon teal">🔁</div></div>
+          <h3>Programa de Tránsito</h3><p>Acompañamiento en el paso de Infantil a Primaria y de Primaria a Secundaria (ESO).</p><span class="card-more">Ver más →</span></a>
+        <a class="card card-logo card-link" href="competencia-linguistica-bilingue.html">
+          <div class="card-logo-art"><div class="card-logo-icon amber">🗣️</div></div>
+          <h3>Competencia Lingüística Bilingüe</h3><p>Refuerzo de la competencia lingüística en el centro bilingüe.</p><span class="card-more">Ver más →</span></a>
+        <a class="card card-logo card-link" href="habitos-vida-saludables.html">
+          <div class="card-logo-art"><img src="images/cartel-frutas-hortalizas.jpg" alt="Programa Escolar de Consumo de Frutas y Hortalizas" loading="lazy"></div>
+          <h3>Hábitos de Vida Saludables</h3><p>Alimentación saludable (frutas, verduras y leche subvencionadas por la UE) y huerto escolar.</p><span class="card-more">Ver más →</span></a>
+        <a class="card card-logo card-link" href="escuela-espacio-de-paz.html">
+          <div class="card-logo-art"><div class="card-logo-icon teal">🕊️</div></div>
+          <h3>Escuela Espacio de Paz</h3><p>Convivencia, mediación y cultura de paz en el centro.</p><span class="card-more">Ver más →</span></a>
       </div>
     </div>
   </section>
