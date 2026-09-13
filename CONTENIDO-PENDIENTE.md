@@ -15,14 +15,15 @@ Gran parte del contenido ya se ha sustituido por datos reales, extraídos del ex
 - "Documentos oficiales" ampliado: además del Plan de Centro (Proyecto Educativo, ROF, Proyecto de Gestión), incluye los Criterios de Evaluación por curso.
 
 - Programas actualizados al curso actual: se quitan CIMA, Programa ZTS, Aprendizaje-Servicio e INNICIA · Robótica (ya no vigentes), y se añaden Competencia Lingüística Bilingüe, Hábitos de Vida Saludables y Escuela Espacio de Paz.
-- Redes sociales del centro enlazadas en el pie de página: Facebook (facebook.com/ceipgenil.granada) e Instagram (instagram.com/ceipgenilgranada).
+- Redes sociales del centro enlazadas en el menú superior (junto a iPasen): Facebook (facebook.com/ceipgenil.granada) e Instagram (instagram.com/ceipgenilgranada).
+- **AMPA:** contacto añadido en `familias.html` — email (ampagenil@gmail.com), Facebook y blog propio.
+- **Horario lectivo** (`etapas.html`): confirmado con el Proyecto Educativo 2026/27 — 9:00 a 14:00 h de lunes a viernes, recreo 11:30–12:00 h en Infantil y 12:00–12:30 h en Primaria.
+- **Programaciones didácticas**: enlaces a las carpetas de Drive de Educación Infantil y Educación Primaria añadidos en `el-centro.html` (extraídos del Proyecto Educativo 2026/27, Anexo 1).
+- **Historia del centro / "Quiénes somos"**: párrafo añadido en `el-centro.html` con datos del Proyecto Educativo 2026/27 (ubicación, año de inauguración, nº de alumnado, huerto escolar).
+- Los enlaces de Proyecto Educativo, ROF, Proyecto de Gestión y Criterios de Evaluación en `el-centro.html` corresponden al Proyecto Educativo del curso 2026/27 (confirmado contra el documento oficial que Cecilia compartió).
 
 ## Todavía pendiente
 - [ ] **Competencia Lingüística Bilingüe, Hábitos de Vida Saludables y Escuela Espacio de Paz**: solo tienen un texto mínimo — falta que Cecilia (o el centro) pase el contenido real de cada programa este curso.
-- [ ] **AMPA:** falta un email, teléfono o redes sociales propias (Cecilia lo está buscando).
-- [ ] **Horario lectivo** (`etapas.html`, `contacto.html`): sigue siendo un cálculo aproximado (9:00–14:00 h, a partir de los horarios de aula matinal y comedor). Confirmarlo tal cual.
-- [ ] **Programaciones didácticas**: falta el enlace por curso en `el-centro.html` (no estaba en la web antigua).
-- [ ] Historia del centro / texto de "Quiénes somos" más allá de los datos ya incluidos
 
 ## Fotos y vídeos
 - [ ] La web antigua tenía 306 archivos (fotos, carteles, vídeos, documentos). Cecilia ya está descargándolos a su ordenador con el script `descargar-fotos-videos.sh`. Cuando estén descargados:
@@ -34,5 +35,3 @@ Gran parte del contenido ya se ha sustituido por datos reales, extraídos del ex
 ## Logo
 - [ ] El icono "Cauce" (`images/favicon.svg`) es la propuesta elegida para sustituir el logo hecho a mano. Si se genera el archivo final del logo, sustituir el SVG en `images/favicon.svg` y en la cabecera/pie de cada página HTML.
 
-## Documentos oficiales
-- [ ] Los enlaces a Proyecto Educativo, ROF, Proyecto de Gestión y Criterios de Evaluación (`el-centro.html`) apuntan a Google Drive con enlaces de la web antigua — comprobar que siguen siendo accesibles y están actualizados al curso actual.
