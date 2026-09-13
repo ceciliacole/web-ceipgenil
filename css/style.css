@@ -225,7 +225,7 @@ nav.main-nav a.btn-primary:hover { color: #fff; }
 }
 .hero p.lead { font-size: 17.5px; max-width: 46ch; }
 .hero-actions { display: flex; gap: 14px; margin-top: 26px; flex-wrap: wrap; }
-.hero-art { border-radius: 20px; overflow: hidden; background: var(--white); }
+.hero-art { overflow: visible; }
 
 /* Vídeos */
 .video-grid {
@@ -639,6 +639,7 @@ footer.site-footer > .container { position: relative; z-index: 1; }
 /* Responsive */
 @media (max-width: 860px) {
   .hero, .contact-grid { grid-template-columns: 1fr; }
+  .hero-spill { display: none; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 720px) {

@@ -69,12 +69,34 @@
       </div>
     </div>
     <div class="hero-art">
-      <svg viewBox="0 0 480 360" width="100%" role="img" aria-label="Ilustración del río Genil">
-        <rect width="480" height="360" fill="#ffffff"/>
-        <path d="M0 175 C 60 115, 110 215, 175 165 C 240 115, 290 205, 350 160 C 385 138, 415 138, 480 160 L480 360 L0 360 Z" fill="#bcdadb"/>
-        <path d="M0 270 C 60 220, 110 300, 175 260 C 240 220, 290 295, 350 255 C 385 235, 415 235, 480 255 L480 360 L0 360 Z" fill="#2e8b96"/>
-        <circle cx="360" cy="78" r="22" fill="#e0973a"/>
-        <path d="M0 175 C 60 115, 110 215, 175 165 C 240 115, 290 205, 350 160 C 385 138, 415 138, 480 160" stroke="#16324f" stroke-width="10" stroke-linecap="round" fill="none"/>
+      <svg viewBox="0 0 480 360" width="100%" role="img" aria-label="Ilustración del río Genil" style="overflow:visible;">
+        <defs>
+          <clipPath id="heroBoxClip"><rect x="0" y="0" width="480" height="360" rx="20" ry="20"/></clipPath>
+          <linearGradient id="heroFadeCeleste" gradientUnits="userSpaceOnUse" x1="-160" y1="0" x2="0" y2="0">
+            <stop offset="0" stop-color="#bcdadb" stop-opacity="0"/>
+            <stop offset="1" stop-color="#bcdadb" stop-opacity="1"/>
+          </linearGradient>
+          <linearGradient id="heroFadeTeal" gradientUnits="userSpaceOnUse" x1="-160" y1="0" x2="0" y2="0">
+            <stop offset="0" stop-color="#2e8b96" stop-opacity="0"/>
+            <stop offset="1" stop-color="#2e8b96" stop-opacity="1"/>
+          </linearGradient>
+          <linearGradient id="heroFadeNavy" gradientUnits="userSpaceOnUse" x1="-160" y1="0" x2="0" y2="0">
+            <stop offset="0" stop-color="#16324f" stop-opacity="0"/>
+            <stop offset="1" stop-color="#16324f" stop-opacity="1"/>
+          </linearGradient>
+        </defs>
+        <g class="hero-spill">
+          <path d="M-160 190 C -120 165, -90 205, -40 178 C -10 165, -5 172, 0 175 L0 360 L-160 360 Z" fill="url(#heroFadeCeleste)"/>
+          <path d="M-160 300 C -120 275, -90 315, -40 285 C -15 270, -5 268, 0 270 L0 360 L-160 360 Z" fill="url(#heroFadeTeal)"/>
+          <path d="M-160 190 C -120 165, -90 205, -40 178 C -10 165, -5 172, 0 175" fill="none" stroke="url(#heroFadeNavy)" stroke-width="10" stroke-linecap="round"/>
+        </g>
+        <g clip-path="url(#heroBoxClip)">
+          <rect x="0" y="0" width="480" height="360" fill="#ffffff"/>
+          <path d="M0 175 C 60 115, 110 215, 175 165 C 240 115, 290 205, 350 160 C 385 138, 415 138, 480 160 L480 360 L0 360 Z" fill="#bcdadb"/>
+          <path d="M0 270 C 60 220, 110 300, 175 260 C 240 220, 290 295, 350 255 C 385 235, 415 235, 480 255 L480 360 L0 360 Z" fill="#2e8b96"/>
+          <circle cx="360" cy="78" r="22" fill="#e0973a"/>
+          <path d="M0 175 C 60 115, 110 215, 175 165 C 240 115, 290 205, 350 160 C 385 138, 415 138, 480 160" stroke="#16324f" stroke-width="10" stroke-linecap="round" fill="none"/>
+        </g>
       </svg>
     </div>
   </section>
