@@ -114,7 +114,8 @@ nav.main-nav a.btn-primary:hover { color: #fff; }
   position: absolute;
   top: 100%;
   left: -14px;
-  margin-top: 14px;
+  margin-top: 0;
+  padding-top: 20px;
   background: var(--white);
   border: 1px solid var(--line);
   border-radius: var(--radius);
