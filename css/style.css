@@ -158,24 +158,35 @@ nav.main-nav a.btn-primary:hover { color: #fff; }
 .btn-amber { background: var(--amber); color: #fff; }
 .btn-amber:hover { background: #c67f28; }
 
-/* Movimiento sutil: aparición al hacer scroll */
+/* Movimiento: aparición al hacer scroll, en cascada dentro de cada fila */
 @media (prefers-reduced-motion: no-preference) {
-  .reveal { opacity: 0; transform: translateY(18px); transition: opacity .5s ease, transform .5s ease; }
-  .reveal.is-visible { opacity: 1; transform: translateY(0); }
+  .reveal {
+    opacity: 0;
+    transform: translateY(42px) scale(.96);
+    transition: opacity .65s cubic-bezier(.16,1,.3,1), transform .65s cubic-bezier(.16,1,.3,1);
+  }
+  .reveal.is-visible { opacity: 1; transform: translateY(0) scale(1); }
+  .grid .reveal:nth-child(2), .org-grid .reveal:nth-child(2) { transition-delay: .09s; }
+  .grid .reveal:nth-child(3), .org-grid .reveal:nth-child(3) { transition-delay: .18s; }
+  .grid .reveal:nth-child(4), .org-grid .reveal:nth-child(4) { transition-delay: .27s; }
+  .grid .reveal:nth-child(5) { transition-delay: .36s; }
+  .grid .reveal:nth-child(6) { transition-delay: .45s; }
+  .grid .reveal:nth-child(7) { transition-delay: .54s; }
+  .grid .reveal:nth-child(8) { transition-delay: .63s; }
 }
 
-/* Zoom suave en fotos al pasar el ratón */
+/* Zoom en fotos al pasar el ratón */
 .section-photo, .poster-card, .card-photo-wrap, .photo-grid, .carousel-track img {
   overflow: hidden;
 }
 .section-photo img, .poster-card img, .card-photo-wrap img, .carousel-track img {
-  transition: transform .5s ease;
+  transition: transform .6s cubic-bezier(.16,1,.3,1);
 }
 .section-photo:hover img, .poster-card:hover img, .card-photo-wrap:hover img, .carousel-track img:hover {
-  transform: scale(1.045);
+  transform: scale(1.09);
 }
-.photo-grid img { transition: transform .5s ease; }
-.photo-grid img:hover { transform: scale(1.06); }
+.photo-grid img { transition: transform .6s cubic-bezier(.16,1,.3,1); }
+.photo-grid img:hover { transform: scale(1.12); }
 .nav-toggle {
   display: none;
   background: none;
