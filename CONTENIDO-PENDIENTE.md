@@ -33,5 +33,5 @@ Gran parte del contenido ya se ha sustituido por datos reales, extraídos del ex
 - [ ] Las noticias de `noticias.html` (Semana Cultural, acequia de Aynadamar, Jornada de Puertas Abiertas) están recuperadas de la web antigua pero sin sus fotos/vídeos originales
 
 ## Logo
-- [ ] El icono "Cauce" (`images/favicon.svg`) es la propuesta elegida para sustituir el logo hecho a mano. Si se genera el archivo final del logo, sustituir el SVG en `images/favicon.svg` y en la cabecera/pie de cada página HTML.
+- [x] Logo nuevo aplicado: icono "Ola" (dos corrientes de agua + sol, sin montaña) con la ola repetida bajo el nombre "CEIP Genil" en cabecera, pie de página y favicon (`images/favicon.svg`).
 
